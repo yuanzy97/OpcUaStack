@@ -84,6 +84,7 @@ namespace OpcUaStackCore
 		);
 
 		bool isCaCertificate(void);
+		bool isIntermediateCertificate(void);
 
 		X509* getX509(void);
 		bool getSubject(Identity& subject);
